@@ -32,9 +32,17 @@ Este proyecto es un ejemplo de un modelo de valoración basado en el dataset ide
    pip install -r requirements.txt
    ```
 
+   uv run wandb login
+
 ## Uso
 
-Instructions on how to use the project.
+Para el registro de modelos y experimentos se ha utilizado la plataforma [Weights & Biases](https://docs.wandb.ai/guides/), en los ejemplos usados se utiliza un token como variable de entorno que debe estar en el fichero .env donde deberíamos tener algo así:
+
+```
+WANDB_API_KEY=f0d.....8sa
+```
+
+**Disclaimer:** No obstante el uso de W&B que se hace en los ejemplos y las utilidades es bastante básico.
 
 ## Contributing
 

@@ -1,7 +1,7 @@
 [project]
 name = "ml-idealista-18"
 version = "0.1.0"
-description = "Proyecto de ejemplo idealista 18"
+description = "Proyecto de de modelización sobre idealista 18"
 readme = "README.md"
 requires-python = ">=3.12"
 
@@ -11,6 +11,9 @@ dependencies = [
     "ipykernel",
     "geopandas",
     "matplotlib",
+    "wandb==0.19.11",
+    "unidecode",
+    "dotenv",
     "shapely>=2.0",  # Shapely 2.x incluye todo lo que antes venía en pygeos
     "rtree",
     "scikit-learn",
