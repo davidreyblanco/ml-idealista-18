@@ -1,0 +1,22 @@
+[project]
+name = "ml-idealista-18"
+version = "0.1.0"
+description = "Proyecto de ejemplo idealista 18"
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "notebook",
+    "pandas",
+    "ipykernel",
+    "geopandas",
+    "matplotlib",
+    "shapely>=2.0",  # Shapely 2.x incluye todo lo que antes venía en pygeos
+    "rtree",
+    "scikit-learn",
+    # add your other runtime dependencies here
+]
+
+[tool.uv]
+# uv-specific settings, optional
+
