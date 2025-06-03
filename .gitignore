@@ -136,10 +136,11 @@ dmypy.json
 cython_debug/
 
 .DS_Store
-**.DS_Store
+**/.DS_Store
 # VS Code settings
 .vscode/
 **/wandb
 **/artifacts
 wandb
 models
+notebooks/*.csv.gz
