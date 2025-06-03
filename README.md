@@ -22,6 +22,7 @@ Este proyecto es un ejemplo de un modelo de valoración basado en el dataset ide
    ```
 2. **Create and activate a virtual environment using [uv](https://github.com/astral-sh/uv):**
     ```
+    pip install uv
     uv venv
     uv sync
     source .venv/bin/activate  # On macOS/Linux
