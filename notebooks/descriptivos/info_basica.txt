@@ -1,0 +1,60 @@
+Número de registros: 75803
+Número de variables: 48
+
+Primeras 5 filas del dataset:
+                 ASSETID   PRICE    UNITPRICE ADTYPOLOGYID ADOPERATIONID  CONSTRUCTEDAREA  ROOMNUMBER  BATHNUMBER  HASTERRACE  HASLIFT  HASAIRCONDITIONING  AMENITYID  HASPARKINGSPACE  ISPARKINGSPACEINCLUDEDINPRICE  PARKINGSPACEPRICE  HASNORTHORIENTATION  HASSOUTHORIENTATION  HASEASTORIENTATION  HASWESTORIENTATION  HASBOXROOM  HASWARDROBE  HASSWIMMINGPOOL  HASDOORMAN  HASGARDEN  ISDUPLEX  ISSTUDIO  ISINTOPFLOOR  CONSTRUCTIONYEAR  FLOORCLEAN  FLATLOCATIONID  CADCONSTRUCTIONYEAR  CADMAXBUILDINGFLOOR  CADDWELLINGCOUNT  CADASTRALQUALITYID  BUILTTYPEID_1  BUILTTYPEID_2  BUILTTYPEID_3  DISTANCE_TO_CITY_CENTER  DISTANCE_TO_METRO  DISTANCE_TO_CASTELLANA  LONGITUDE   LATITUDE CITYNAME ADTYPOLOGY ADOPERATION                    LOCATIONID        LOCATIONNAME         CUSEC
+0  A15019136831406238029  126000  2680.851064         HOME          SALE               47           1           1           0        1                   1          3                0                              0                  1                    0                    0                   0                   0           1            1                1           1          1         0         0             0            2005.0         1.0             1.0                 2005                    7               319                 3.0              0              1              0                 8.058429           0.872075                6.868677  -3.766933  40.362485   Madrid       HOME        SALE  0-EU-ES-28-07-001-079-11-008  Pau de Carabanchel  2.807911e+09
+1   A6677225905472065344  235000  4351.851852         HOME          SALE               54           1           1           0        0                   0          3                0                              0                  1                    0                    0                   0                   0           0            1                0           0          0         0         0             0               NaN         1.0             2.0                 1900                    5                11                 3.0              0              0              1                 0.876369           0.116382                1.544125  -3.710725  40.422430   Madrid       HOME        SALE  0-EU-ES-28-07-001-079-01-001             Palacio  2.807901e+09
+2  A13341979748618524775  373000  4973.333333         HOME          SALE               75           2           1           0        0                   1          3                0                              0                  1                    0                    1                   0                   0           1            1                0           0          0         0         0             0               NaN         3.0             1.0                 1915                    6                26                 3.0              0              0              1                 0.907479           0.139109                1.608444  -3.711571  40.422190   Madrid       HOME        SALE  0-EU-ES-28-07-001-079-01-001             Palacio  2.807901e+09
+3   A4775182175615276542  284000  5916.666667         HOME          SALE               48           1           1           0        1                   1          3                0                              0                  1                    0                    0                   0                   0           0            0                0           0          0         0         0             0               NaN         1.0             2.0                 1947                    9                15                 5.0              0              0              1                 0.845462           0.144299                1.516166  -3.710440  40.422251   Madrid       HOME        SALE  0-EU-ES-28-07-001-079-01-001             Palacio  2.807901e+09
+4   A2492087730711701973  228000  4560.000000         HOME          SALE               50           0           1           0        0                   0          3                0                              0                  1                    0                    0                   0                   0           0            0                0           0          0         0         1             0            1930.0         0.0             1.0                 1930                    5                19                 7.0              0              0              1                 1.250231           0.337098                1.794136  -3.714340  40.408741   Madrid       HOME        SALE  0-EU-ES-28-07-001-079-01-001             Palacio  2.807901e+09
+
+Tipos de datos:
+ASSETID                           object
+PRICE                              int64
+UNITPRICE                        float64
+ADTYPOLOGYID                      object
+ADOPERATIONID                     object
+CONSTRUCTEDAREA                    int64
+ROOMNUMBER                         int64
+BATHNUMBER                         int64
+HASTERRACE                         int64
+HASLIFT                            int64
+HASAIRCONDITIONING                 int64
+AMENITYID                          int64
+HASPARKINGSPACE                    int64
+ISPARKINGSPACEINCLUDEDINPRICE      int64
+PARKINGSPACEPRICE                  int64
+HASNORTHORIENTATION                int64
+HASSOUTHORIENTATION                int64
+HASEASTORIENTATION                 int64
+HASWESTORIENTATION                 int64
+HASBOXROOM                         int64
+HASWARDROBE                        int64
+HASSWIMMINGPOOL                    int64
+HASDOORMAN                         int64
+HASGARDEN                          int64
+ISDUPLEX                           int64
+ISSTUDIO                           int64
+ISINTOPFLOOR                       int64
+CONSTRUCTIONYEAR                 float64
+FLOORCLEAN                       float64
+FLATLOCATIONID                   float64
+CADCONSTRUCTIONYEAR                int64
+CADMAXBUILDINGFLOOR                int64
+CADDWELLINGCOUNT                   int64
+CADASTRALQUALITYID               float64
+BUILTTYPEID_1                      int64
+BUILTTYPEID_2                      int64
+BUILTTYPEID_3                      int64
+DISTANCE_TO_CITY_CENTER          float64
+DISTANCE_TO_METRO                float64
+DISTANCE_TO_CASTELLANA           float64
+LONGITUDE                        float64
+LATITUDE                         float64
+CITYNAME                          object
+ADTYPOLOGY                        object
+ADOPERATION                       object
+LOCATIONID                        object
+LOCATIONNAME                      object
+CUSEC                            float64

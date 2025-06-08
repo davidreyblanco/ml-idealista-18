@@ -1,0 +1,36 @@
+RESUMEN DEL ANÁLISIS EXPLORATORIO DE DATOS
+==========================================
+
+1. El dataset contiene 75803 registros y 48 variables.
+
+2. Variables con mayor correlación con el precio:
+   - CONSTRUCTEDAREA: 0.8558
+   - BATHNUMBER: 0.7115
+   - UNITPRICE: 0.5899
+   - ROOMNUMBER: 0.4530
+   - HASDOORMAN: 0.3442
+   - HASLIFT: 0.3151
+   - LATITUDE: 0.2624
+   - HASBOXROOM: 0.2218
+   - ISPARKINGSPACEINCLUDEDINPRICE: 0.2156
+
+3. Estadísticas de la variable objetivo (PRICE):
+   - Precio mínimo: 21000
+   - Precio máximo: 8133000
+   - Precio promedio: 389546.71
+   - Precio mediana: 257000.00
+   - Desviación estándar: 413099.59
+
+4. Características binarias con mayor impacto en el precio:
+   - HASLIFT: 143.81% de diferencia
+   - HASDOORMAN: 106.92% de diferencia
+   - HASPARKINGSPACE: 63.02% de diferencia
+   - HASBOXROOM: 62.85% de diferencia
+   - ISDUPLEX: 40.27% de diferencia
+
+5. Variables con mayor porcentaje de valores faltantes:
+   - CONSTRUCTIONYEAR: 60.12%
+   - FLATLOCATIONID: 6.81%
+   - FLOORCLEAN: 4.11%
+   - CUSEC: 0.09%
+   - LOCATIONNAME: 0.09%

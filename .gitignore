@@ -146,3 +146,4 @@ models
 notebooks/*.csv.gz
 **/__pycache__
 **/*.pyc
+misc/*
