@@ -144,6 +144,7 @@ cython_debug/
 wandb
 models
 notebooks/*.csv.gz
+notebooks/data/*.csv.gz
 **/__pycache__
 **/*.pyc
 misc/*
