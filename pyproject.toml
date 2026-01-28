@@ -14,10 +14,15 @@ dependencies = [
     "wandb==0.19.11",
     "unidecode",
     "dotenv",
-    "shapely>=2.0",  # Shapely 2.x incluye todo lo que antes venía en pygeos
+    "shapely>=2.0", # Shapely 2.x incluye todo lo que antes venía en pygeos
     "rtree",
     "scikit-learn",
     # add your other runtime dependencies here
+    "python-dotenv>=1.2.1",
+    "seaborn>=0.13.2",
+    "pygam>=0.12.0",
+    "libpysal>=4.14.1",
+    "esda>=2.8.1",
 ]
 
 [tool.uv]
